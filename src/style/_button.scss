@@ -1,5 +1,10 @@
 .button {
 	@include button($orange);
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
 	&:hover {
 		background: #CA4600;
 	}
@@ -33,11 +38,22 @@
 	}
 }
 
-.active {
+.alternative {
 	@include button($activeBack, $borderWhite, 362px, 62px, $white);
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
 	&:hover {
 		background: none;
 		color: $orange;
 		border: $borderOrange;
 	}
+}
+
+.btn-cards {
+	margin-top: 36px;
+	width: 296px;
+	height: 52px;
 }

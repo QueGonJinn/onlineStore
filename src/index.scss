@@ -4,8 +4,11 @@
 @import './style/_fonts';
 @import './style/_mixins';
 @import './style/_button';
+@import './style/_title';
 @import './style/_container';
 @import './style/blocks/_header';
+@import './style/blocks/_first_screen';
+@import './style/blocks/_digital_package';
 
 body {
 	font-family: 'Montserrat', sans-serif;
