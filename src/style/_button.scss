@@ -1,0 +1,43 @@
+.button {
+	@include button($orange);
+	&:hover {
+		background: #CA4600;
+	}
+}
+
+.withoutBack_orange {
+	@include button(none, $borderOrange, 244px, 52px, $orange);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	& svg {
+		& path {
+			stroke: $orange;
+		}
+	}
+	&:hover {
+		background: $orange;
+		color: $white;
+		border: none;
+		& svg {
+			& path {
+				stroke: $white;
+			}
+		}
+	}
+}
+
+.active {
+	@include button($activeBack, $borderWhite, 362px, 62px, $white);
+	&:hover {
+		background: none;
+		color: $orange;
+		border: $borderOrange;
+	}
+}

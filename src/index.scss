@@ -1,4 +1,13 @@
 @import 'libs/normalize';
 
+@import './style/_variables';
+@import './style/_fonts';
+@import './style/_mixins';
+@import './style/_button';
+@import './style/_container';
+@import './style/blocks/_header';
 
+body {
+	font-family: 'Montserrat', sans-serif;
+}
 
