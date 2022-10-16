@@ -57,3 +57,15 @@
 	width: 296px;
 	height: 52px;
 }
+
+@media (max-width: 1439px) {
+	.btn-cards {
+		width: 236px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.btn-cards {
+		width: 296px;
+	}
+}
