@@ -69,3 +69,15 @@
 		width: 296px;
 	}
 }
+
+@media (max-width: 767px) {
+	.button {
+		font-size: 12px;
+		line-height: 13px;
+	}
+
+	.alternative {
+		font-size: 12px;
+		line-height: 13px;
+	}
+}

@@ -28,6 +28,17 @@
 	}
 }
 
+.footer__title {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 140%;
+	color: $white;
+	opacity: 0.5;
+	margin-bottom: 24px;
+}
+
 @media (max-width: 1439px) {
 	.title-cards {
 		max-width: 236px;
