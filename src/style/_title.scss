@@ -12,6 +12,10 @@
 		font-size: 38px;
 		line-height: 120%;
 		color: $typography;
+		
+		& span {
+			color: $orange;
+		}
 	}
 	&-cards {
 		font-family: 'Montserrat';

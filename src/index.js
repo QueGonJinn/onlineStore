@@ -7,9 +7,6 @@ const hamburger = document.querySelector('.hamburger');
 const menu = document.querySelector('.menu__next');
 const closeElem = document.querySelector('.menu__next__close');
 
-console.log(inputBTN);
-console.log(input);
-
 inputBTN.addEventListener('click', function() {
 	input.classList.toggle('hidden');
 })
@@ -21,4 +18,5 @@ hamburger.addEventListener('click', () => {
 closeElem.addEventListener('click', () => {
     menu.classList.remove('active');
 });
+
 

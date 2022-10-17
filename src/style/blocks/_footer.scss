@@ -32,10 +32,14 @@
 		color: $white;
 		opacity: 0.5;
 		margin-bottom: 20px;
+		
+		
 	}
 
 	&-addres_wrapper {
 		margin-bottom: 12px;
+		display: flex;
+		flex-direction: column;
 		& a {
 			font-family: 'Montserrat';
 			font-style: normal;
@@ -44,6 +48,7 @@
 			line-height: 170%;
 			color: $white;
 			text-decoration: none;
+			position: relative;
 		}
 	}
 
@@ -65,6 +70,32 @@
 		display: flex;
 		gap: 20px;
 	}
+}
+
+.footer__location {
+	display: flex;
+	gap: 5px;
+	
+}
+.selecttown	{	
+	display: block;
+	padding-top: 4px;
+	font-family: 'Montserrat';
+	font-style: normal;	
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 100%;
+	color: $white;
+	text-decoration: none;
+			
+		
+}
+.selecttown::after {
+	content: '';
+	display: block;
+	height: 1px;
+	width: -10px;
+	background: $white;
 }
 
 .footer__sales {
